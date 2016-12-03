@@ -133,8 +133,7 @@ public class JobPostingDaoImpl implements JobPostingDao {
     @Transactional
     @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_SEEKER')")
     public JobPosting jobFavoritedOrApplied( JobPosting jobPosting ) {
-
         return em.merge( jobPosting );
     }
-    
+   
 }
