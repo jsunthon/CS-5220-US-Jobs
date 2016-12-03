@@ -33,11 +33,4 @@ public class SearchService {
 		return suggestedJobTitles;
 	}
 	
-	/**
-	 * Autocomplete suggestions for job seekers
-	 */
-	
-	/**
-	 * Autocomplete for users
-	 */
 }
