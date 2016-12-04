@@ -8,7 +8,7 @@ $(function() {
 	 * ['software engineer', 'salesman'], and these two would show up in the autocomplete dropdown.
 	 */
 	$("#searchKey").autocomplete({
-		 source: "service/search/jobs",
+		 source: "/usjobs/service/search/jobs",
 		 minLength: 1
 	});
 	
