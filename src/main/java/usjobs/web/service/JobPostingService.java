@@ -100,7 +100,6 @@ public class JobPostingService {
 		User user = userDao.getProfileUser(details.getUsername());
 		jobPosting.setCompany((Employer) user);
 		jobPosting.setEnabled(true);
-		jobPosting.setOpened(true);
 //		logger.info(jobPosting.getJobTitle());
 //		logger.info(jobPosting.getCompany().getUsername());
 		return jobPostingDao.save(jobPosting);

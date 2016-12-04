@@ -159,8 +159,8 @@ function addJob() {
 	        			"<a href='/usjobs/application/jobApplications?jobId=" + jobId + "' " +
 	        			"role='button' class='btn btn-sm btn-primary'><i class='fa fa-shopping-basket' " +
 	        			"aria-hidden='true'></i>&nbsp;&nbsp;Applications </a>" +
-	        			"<a role='button' class='btn btn-sm btn-info openJob'> " +
-	        			"<i class='fa fa-level-up' aria-hidden='true'></i>&nbsp;&nbsp;Open</a>" +
+	        			"<a role='button' class='btn btn-sm btn-warning closeJob'> " +
+	        			"<i class='fa fa-level-down' aria-hidden='true'></i>&nbsp;&nbsp;Close</a>" +
 	        			"<a role='button' class='btn btn-sm btn-success editJob'> " +
 	        			"<i class='fa fa-pencil-square-o' aria-hidden='true'></i>&nbsp;&nbsp;Edit </a> " +
 	        			"<a role='button' class='btn btn-sm btn-danger deleteJob'> " +
